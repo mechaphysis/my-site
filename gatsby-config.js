@@ -6,6 +6,10 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Esperanza's Portolio",
+    author: 'Esperanza Natalia González'
+  },
   plugins: [
     'gatsby-plugin-sass'
   ]
