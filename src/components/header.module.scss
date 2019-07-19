@@ -1,17 +1,19 @@
-$primary-color: black;
+$primary-color:black;
 $light-gray: #999999;
 $medium-gray: #666666;
 $dark-gray: #333333;
 
 .header {
+    top: 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     top: 2rem;
     font-size: 1.8rem;
 }
 
 .home {
+    margin-left: 1rem;
     display:flex;
     align-items: center;
 }
@@ -25,8 +27,8 @@ $dark-gray: #333333;
 }
 .title {
     display: block;
-    line-height: 4rem;
-    font-size: 1.8rem;
+    max-width: 310px;
+    font-size: 1rem;
     text-decoration: none;
     color: $primary-color;
     font-weight: 400;
