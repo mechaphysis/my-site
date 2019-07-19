@@ -1,19 +1,43 @@
+$primary-color: black;
 $light-gray: #999999;
 $medium-gray: #666666;
 $dark-gray: #333333;
 
 .header {
-    padding: 1rem 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 2rem;
+    font-size: 1.8rem;
 }
 
+.home {
+    display:flex;
+    align-items: center;
+}
+
+.pic {
+    display: block;
+    margin-right: 0.875rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
 .title {
-    color: #000000;
-    font-size: 3rem;
+    display: block;
+    line-height: 4rem;
+    font-size: 1.8rem;
     text-decoration: none;
+    color: $primary-color;
+    font-weight: 400;
 }
 
 .nav-list {
+    min-width: 240px;
+    font-size: 1.3rem;
+    height: 100%;
     display: flex;
+    justify-content: space-around;
     list-style-type: none;
     margin: 0; 
 }
