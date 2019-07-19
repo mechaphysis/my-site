@@ -20,11 +20,11 @@ const Header = () => {
                 <Link to="/">
                     <img className={headerStyles.pic} src={pic} alt='Esperanza Natalia'></img>
                 </Link>
-                <h1>
+                <p>
                     <Link className={headerStyles.title} to='/'>
                         {data.site.siteMetadata.title}
                     </Link>
-                </h1>
+                </p>
             </div>
             <nav>
                 <ul className={headerStyles.navList}>
