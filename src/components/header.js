@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby";
-
+import pic from '../assets/pic-placeholder.png'
 import headerStyles from "./header.module.scss"
 
 const Header = () => {
@@ -13,8 +13,10 @@ const Header = () => {
             }
         }
     `)
+    
     return (
         <header className={headerStyles.header}>
+            <img className={headerStyles.pic} src={pic} alt='Esperanza Natalia'></img>
             <h1>
                 <Link className={headerStyles.title} to='/'>
                     {data.site.siteMetadata.title}
