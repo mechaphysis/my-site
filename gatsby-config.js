@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Hi! I'm Esperanza, an inquisitive mind exploring craft and code across all possible realms.",
+    title: "Esperanza Natalia",
     author: 'Esperanza Natalia González'
   },
   plugins: [
