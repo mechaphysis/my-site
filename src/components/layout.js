@@ -9,7 +9,6 @@ const Layout = (props) => {
 
     return (
         <body>
-            {fbq('track', 'ViewContent')}
             <Header />
             <div className={layoutStyles.container}>
                 <div className={layoutStyles.content}>
