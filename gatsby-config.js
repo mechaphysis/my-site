@@ -53,6 +53,6 @@ module.exports = {
     
           // Specify optional GTM environment details.
         },
-      },
+      }
   ]
 }
