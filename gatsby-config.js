@@ -49,5 +49,17 @@ module.exports = {
           pixelId: process.env.FB_PIXEL,
         },
       },
+      {
+        resolve: "gatsby-plugin-google-tagmanager",
+        options: {
+          id: process.env.TAG_MANAGER,
+          // Include GTM in development.
+          // Defaults to false meaning GTM will only be loaded in production.
+          includeInDevelopment: true,
+    
+          // Specify optional GTM environment details.
+          dataLayerName: "dataLayer",
+        },
+      },
   ]
 }
