@@ -3,6 +3,6 @@ import React, {Fragment} from "react"
 export default () =>
     <Fragment>
         <script dangerouslySetInnerHTML={{
-            __html: `dataLayer = []`
+            __html: `window.dataLayer = []`
         }}/>
     </Fragment>
