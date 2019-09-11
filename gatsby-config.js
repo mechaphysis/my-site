@@ -44,12 +44,6 @@ module.exports = {
       }
     },
       {
-        resolve: `gatsby-plugin-facebook-pixel`,
-        options: {
-          pixelId: process.env.FB_PIXEL,
-        },
-      },
-      {
         resolve: "gatsby-plugin-google-tagmanager",
         options: {
           id: process.env.TAG_MANAGER,
