@@ -58,7 +58,6 @@ module.exports = {
           includeInDevelopment: true,
     
           // Specify optional GTM environment details.
-          dataLayerName: "dataLayer",
         },
       },
   ]
