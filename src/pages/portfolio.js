@@ -9,7 +9,11 @@ const PortfolioPage = () => {
         <Layout>
             <Head title="Craftings"/>
             <h1>List of Project goes here</h1>
-            <button onClick={()=> window.dataLayer.push({customerType: "high-value"})}>Add to cart</button>
+            <button onClick={
+                () => window.analytics.track("Add to Cart", {
+                    item: "Lorem Ipsum", 
+                    accountType: "High-value customer"
+                    })}>Add to cart</button>
         </Layout>
     )
 }
